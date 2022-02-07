@@ -26,7 +26,7 @@
     </div>
     <div class="row">
         <div class="col-lg-4">
-            <a class="card text-white text-center mb-2" href="<?= BASEURL.'?p=user';?>">
+            <a class="card text-white text-center mb-2" href="<?= BASEURL.'?p=transaksi';?>">
                 <div class="card-body">
                     <h6>Transaksi</h6>
                 </div>

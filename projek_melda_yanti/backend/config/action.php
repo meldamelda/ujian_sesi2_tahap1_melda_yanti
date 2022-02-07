@@ -20,10 +20,6 @@
                 }
             }
             $db->execute();
-            if($db->rowCount() > 0){
-                Message::flash("Data berhasil di ".$_POST['submit'],"success");
-                header("Location:".BASEURL."../?p=$page");
-            }
         break;
             
         case("update"):
@@ -48,10 +44,6 @@
                 }
             }
             $db->execute();
-            if($db->rowCount() > 0){
-                Message::flash("Data berhasil di ".$_POST['submit'],"success");
-                header("Location:".BASEURL."../?p=$page");
-            }
         break;
 
         case("delete"):
@@ -59,10 +51,6 @@
             $sql = "DELETE FROM $table WHERE id='$id'";
             $db->query($sql);
             $db->execute();
-            if($db->rowCount() > 0){
-                Message::flash("Data berhasil di HAPUS","success");
-                header("Location:".BASEURL."../?p=$page");
-            }
         break;
 
         default:

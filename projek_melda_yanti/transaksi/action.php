@@ -1,8 +1,8 @@
 <?php
     require_once("../backend/config/config.php");
-    $page = "dokter";
-    $table = "dokter";
-    $array_key = ['id','nama','alamat','spesialis'];
+    $page = "penyakit";
+    $table = "penyakit";
+    $array_key = ['id','tanggal','jumlah','total'];
     $submit = strtolower($_POST['submit'] ?? $_GET['a']);
     
     require_once("../backend/config/action.php");
