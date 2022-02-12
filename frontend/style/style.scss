@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+.menu{
+    a{
+        text-decoration: none;
+        background-color: #0dcaf0;
+
+        &:hover{
+            background-color: #128fa8;
+        }
+    }
+}
+
+.footer{
+    width: 100%;
+}
+
+.aksi{
+    width : 15%;
+}
